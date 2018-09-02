@@ -56,3 +56,17 @@ function summarizeCart(cart){
     cart: cartWithReward
   }
 }
+
+
+////
+////
+////
+const titles = ['Moby Dick', 'White Teeth']
+
+//add to beginning
+//titles.shift('The whatever')
+const evenMoreTitles = [...titles, 'asdfasdfas']
+const moreCopied = [...evenMoreTitles]
+
+console.log(evenMoreTitles)
+console.log(moreCopied)
