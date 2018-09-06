@@ -1,5 +1,5 @@
 function getBill(item){
-  returnd{
+  return{
     name: item.name,
     due: twoWeeksFromNow(),
     total: calculateTotal(item.price)
